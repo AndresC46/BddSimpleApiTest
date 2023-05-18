@@ -1,0 +1,139 @@
+{
+  "dataByEnvironment": [
+    {
+      "environment": "LOCAL",
+      "environmentData": [
+        {
+          "key": "BaseUrl",
+          "value": "https://localhost:5001/"
+        },
+        {
+          "key": "SimpleGetAPI",
+          "value": "api/todoItems"
+        },
+        {
+          "key": "SimpleGetAPIById",
+          "value": "api/todoItems/ID"
+        },
+        {
+          "key": "SimplePostAPI",
+          "value": "api/todoItems"
+        },
+        {
+          "key": "SimplePutAPI",
+          "value": "api/todoItems/ID"
+        },
+        {
+          "key": "SimpleDeleteAPI",
+          "value": "api/todoItems/ID"
+        },
+        {
+          "key": "PostmanAPI",
+          "value": "https://postman-echo.com/basic-auth"
+        },
+        {
+          "key": "TokenAPI",
+          "value": "https://dummy-api-url-for-tokenBasedAuthentication"
+        },
+        {
+          "key": "SQL_ConnectionString",
+          "value": "data source = NIT-LPT-R164\\SQLEXPRESS; database = DemoSchema; Integrated Security = True;"
+        },
+        {
+          "key": "Basic_Usernanme",
+          "value": "postman"
+        },
+        {
+          "key": "Basic_Password",
+          "value": "password"
+        },
+        {
+          "key": "Profile_Table",
+          "value": "[dbo].[Profile]"
+        }
+      ]
+    },
+    {
+      "environment": "QA",
+      "environmentData": [
+        {
+          "key": "BaseUrl",
+          "value": "https://reqres.in/"
+        },
+        {
+          "key": "SimpleGetAPI",
+          "value": "api/users"
+        },
+        {
+          "key": "SimplePostAPI",
+          "value": "api/users"
+        },
+        {
+          "key": "PostmanAPI",
+          "value": "https://postman-echo.com/basic-auth"
+        },
+        {
+          "key": "TokenAPI",
+          "value": "https://dummy-api-url-for-tokenBasedAuthentication"
+        },
+        {
+          "key": "SQL_ConnectionString",
+          "value": "data source = NIT-LPT-R164\\SQLEXPRESS; database = DemoSchema; Integrated Security = True;"
+        },
+        {
+          "key": "Basic_Usernanme",
+          "value": "postman"
+        },
+        {
+          "key": "Basic_Password",
+          "value": "password"
+        },
+        {
+          "key": "Profile_Table",
+          "value": "[dbo].[Profile]"
+        }
+      ]
+    },
+    {
+      "environment": "UAT",
+      "environmentData": [
+        {
+          "key": "BaseUrl",
+          "value": "https://postman-echo.com/"
+        },
+        {
+          "key": "SimpleGetAPI",
+          "value": "get"
+        },
+        {
+          "key": "SimplePostAPI",
+          "value": "post"
+        },
+        {
+          "key": "PostmanAPI",
+          "value": "basic-auth"
+        },
+        {
+          "key": "TokenAPI",
+          "value": "https://dummy-api-url-for-tokenBasedAuthentication"
+        },
+        {
+          "key": "SQL_ConnectionString",
+          "value": "data source = NIT-LPT-R164\\SQLEXPRESS; database = DemoSchema; Integrated Security = True;"
+        },
+        {
+          "key": "Basic_Usernanme",
+          "value": "postman"
+        },
+        {
+          "key": "Basic_Password",
+          "value": "password"
+        },
+        {
+          "key": "Profile_Table",
+          "value": "[dbo].[Profile]"
+        }
+      ]
+    }
+  ]
+}
